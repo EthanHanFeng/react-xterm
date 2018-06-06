@@ -1773,7 +1773,7 @@ react-resizable@^1.7.5:
     prop-types "15.x"
     react-draggable "^2.2.6 || ^3.0.3"
 
-react@^16.4.0:
+react@^16.3.1:
   version "16.4.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.4.0.tgz#402c2db83335336fba1962c08b98c6272617d585"
   dependencies:
@@ -2313,7 +2313,7 @@ xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
-xterm@*, xterm@3.4.1:
+xterm@*:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/xterm/-/xterm-3.4.1.tgz#12452979ea2db3371f8195832d7407abba988980"
 
