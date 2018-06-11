@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 const className = require('classnames');
 // const debounce = require('lodash.debounce');
 // import styles from 'xterm/xterm.css';
