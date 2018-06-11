@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = require("react");
-const xterm_1 = require("xterm");
-exports.Terminal = xterm_1.Terminal;
+const xterm_ex_1 = require("xterm-ex");
+exports.Terminal = xterm_ex_1.Terminal;
 const className = require('classnames');
 class XTerm extends React.Component {
     constructor(props, context) {
@@ -15,16 +15,16 @@ class XTerm extends React.Component {
         };
     }
     applyAddon(addon) {
-        xterm_1.Terminal.applyAddon(addon);
+        xterm_ex_1.Terminal.applyAddon(addon);
     }
     componentDidMount() {
         if (this.props.addons) {
             this.props.addons.forEach(s => {
                 const addon = require(`xterm/dist/addons/${s}/${s}`);
-                xterm_1.Terminal.applyAddon(addon);
+                xterm_ex_1.Terminal.applyAddon(addon);
             });
         }
-        this.xterm = new xterm_1.Terminal(this.props.options);
+        this.xterm = new xterm_ex_1.Terminal(this.props.options);
         this.xterm.open(this.container);
         this.xterm.on('focus', this.focusChanged.bind(this, true));
         this.xterm.on('blur', this.focusChanged.bind(this, false));

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 export interface IXtermProps extends React.DOMAttributes<{}> {
     onChange?: (e: any) => void;
     onInput?: (e: any) => void;

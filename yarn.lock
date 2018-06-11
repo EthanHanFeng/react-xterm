@@ -2313,6 +2313,10 @@ xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
+xterm-ex@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/xterm-ex/-/xterm-ex-2.0.0.tgz#cd76b0dd962fb78dead14c0fc9c120a9a95fd51d"
+
 xterm@*:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/xterm/-/xterm-3.4.1.tgz#12452979ea2db3371f8195832d7407abba988980"
