@@ -39,7 +39,7 @@ export default class XTerm extends React.Component<IXtermProps, IXtermState> {
     componentDidMount() {
         if (this.props.addons) {
             this.props.addons.forEach(s => {
-                const addon = require(`xterm/dist/addons/${s}/${s}`);
+                const addon = require(`xterm-ex/dist/addons/${s}/${s}`);
                 Terminal.applyAddon(addon);
             });
         }
