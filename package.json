@@ -6,6 +6,7 @@
   "types": "./dist/react-xterm.d.ts",
   "scripts": {
     "prepublish": "tsc",
+    "build": "tsc",
     "test": "exit 0"
   },
   "repository": {
